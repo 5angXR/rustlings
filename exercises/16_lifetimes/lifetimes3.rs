@@ -6,9 +6,9 @@
 // hint.
 
 
-struct Book<'a, 'b> {
+struct Book<'a> {
     author: &'a str,
-    title: &'b str,
+    title: &'a str,
 }
 
 fn main() {
